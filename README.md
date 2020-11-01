@@ -1,2 +1,2 @@
 # nerds
->the site is available at the [link]{https://karvacky-roma.github.io/nerds/}
+>the site is available at the [link](https://karvacky-roma.github.io/nerds/)
