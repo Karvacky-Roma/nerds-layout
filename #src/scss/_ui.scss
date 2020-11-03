@@ -17,8 +17,21 @@
 }
 
 .btn{
-	display: inline-block;
-	transition: 0.3s;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 500;
+	color: #ffffff;
+
+	height: 50px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2px;
+
+	padding: 0px 39px;
+	&-r{background-color: #fb565a;}
+	&-g{background-color: #00ca74;}
+	&-y{background-color: #efc84a;}
 	&:hover{
 		// color: #fcac45;
 		// background-color: #fff;
@@ -40,4 +53,15 @@
 		opacity: 0;
 		visibility: hidden;
 	}
+}
+
+
+.hr::after{
+	content: '';
+	display: block;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0px 10px;
+	height: 2px;
+	background-color: rgba(0,0,0,.2);
 }
