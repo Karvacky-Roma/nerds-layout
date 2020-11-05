@@ -48,6 +48,9 @@
 	bottom: 86px;
 	left: 50%;
 	right: 50%;
+	@media (max-width:$md2){
+		bottom: 30px;
+	}
 } 
 .slick-dots li{
 	margin: 0px 0px 0px 17px;

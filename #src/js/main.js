@@ -4,6 +4,7 @@ $(document).ready(function () {
 		adaptiveHeight: true,
 		dots: true,
 		arrows: false,
+		infinite: false,
 		easing: 'linear',
 		lazyLoad: 'ondemand',
 	});
